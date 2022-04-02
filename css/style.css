@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.container ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container li {
+  margin: 0 20px;
+  list-style: none;
+}
+
+.container li:hover {
+  text-decoration: #8E2424 underline;
+}
+
+.content_navegation {
+  padding-top: 5px;
+}
+
+.content_navegation a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.content_navegation #navegation_cadaster {
+  background-color: #8E2424;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+section {
+  width: 100vw;
+  margin-top: 100px;
+}
+
+.main {
+  text-align: center;
+}
+
+.main p {
+  font-weight: bold;
+  color: #8E2424;
+}
+
+.main h1 {
+  padding-top: 30px;
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.main #text_main {
+  width: 650px;
+  margin: 0 auto;
+  padding-top: 30px;
+  font-weight: 400;
+  color: #667085;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  margin-top: 50px;
+}
+
+.card h1 {
+  font-weight: 500;
+  color: #8E2424;
+  font-size: 3em;
+}
+
+.card span {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.card p {
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
