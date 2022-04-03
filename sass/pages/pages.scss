@@ -117,3 +117,41 @@ section {
     margin: 0 auto;
     margin-top: 10px;
 }
+
+.content_work {
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.content_work p {
+
+    background-color: $colorSix;
+    width: 150px;
+    margin: 0 auto;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $colorOne;
+    font-weight: 900;
+    border-radius: 25px;
+
+}
+
+.content_work h1 {
+    margin: 30px  0px;
+    font-weight: 500;
+}
+
+.content_work span {
+    padding-top: 30px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: $colorTree;
+}
+
+.content_work img {
+    margin-top: 30px;
+    border-radius: 25px;
+}
