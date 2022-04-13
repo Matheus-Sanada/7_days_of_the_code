@@ -140,4 +140,41 @@ section {
   border-radius: 25px;
 }
 
+.container_work_publi {
+  margin-top: 30px;
+  text-align: center;
+  height: 400px;
+}
+
+.container_design {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+
+.card_work_design {
+  background-color: #D0D5DD;
+  border: 1px solid #8E2424;
+  padding: 10px;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card_work_design_text {
+  display: flex;
+  align-items: center;
+}
+
+.card_work_design_text p {
+  margin: 0 10px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
